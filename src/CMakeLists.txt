@@ -68,6 +68,7 @@ set(VIM_SOURCES buffer.c
 set(GUI_SOURCES gui_qt.cpp )
 set(MOC_SOURCES qt/qvimshell.cpp 
 		qt/mainwindow.cpp 
+		qt/minimap.cpp 
 		qt/vimaction.cpp 
 		qt/tabbar.cpp 
 		qt/vimaction.cpp 

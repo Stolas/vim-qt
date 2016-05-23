@@ -22,6 +22,9 @@ MainWindow::MainWindow( gui_T* gui, QWidget *parent)
 	connect(vimshell, SIGNAL(backgroundColorChanged(QColor)),
 		scrollarea, SLOT(setBackgroundColor(QColor)) );
 
+	// Minimap
+	minimap = new QMinimap(this);
+
 	setCentralWidget(scrollarea);
 
 	// TabLine

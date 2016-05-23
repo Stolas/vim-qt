@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "qvimshell.h"
+#include "qminimap.h"
 #include "tabbar.h"
 #include "scrollarea.h"
 
@@ -47,9 +48,10 @@ private:
 
 	ScrollArea *scrollarea;
 	QVimShell *vimshell;
+	QMinimap *minimap;
 	QToolBar *tabtoolbar;
 	TabBar *tabbar;
-	
+
 
 	bool m_keepTabbar;
 };
